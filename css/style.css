@@ -1,1 +1,173 @@
 /*  */
+
+:root {
+    --red: #df473a;
+    --yellow: #fff8ce;
+    --bg1: #f5eedc;
+    --bg2: #f9f5ea;
+    --gray1: #66635e;
+    --gray2: #5c5954;
+    --gray3: #413e39;
+    --green: #92b45e;
+    --textColor:#762931;
+    --font1: 'Pt Sans' , 'sans-serif';
+    --font2: 'Open Sans' , sans-serif;
+    --client1: 'Caveat' , cursive;
+    --client2: 'Courier Prime' soneophone;
+    --client3: 'Oooh Baby' cursive;
+    --client4: 'Quitcher Grypen', cursive;
+    --grad: linear-gradient(#f86659, var(--red))
+
+}
+
+* {box-sizing: border-box}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font2);
+    scroll-behavior: smooth;
+}
+
+.blurb {
+    color: var(--textColor);
+    background-color: var(--bg1);
+    font-size: 1.7rim;
+    font-weight: 200;
+}
+
+.carousel-image {
+    height: 45vh;
+}
+
+.figure-heading {
+    margin: 0;
+    font-size: 1rim;
+    font-weight: 700;
+}
+
+.icons {
+    font-size: 1.5rim;
+    color: var(--green);
+}
+
+.fs3-heading {
+    font-size: 1rim;
+}
+
+.fs3-list li, .fs3-text {
+    color: #aaa;
+
+}
+
+.fs1-heading {
+    color: var(--textColor);
+}
+
+.fs1-subheading {
+    color: var(--green);
+}
+
+.main-nav-link {
+    color: var(--yellow);
+}
+
+.main-nav-link:hover {
+    padding: 8px 14px;
+    color: #222;
+    background-color: var(--yellow);
+    border-radius: 5px;
+}
+
+.my-figure {
+    background-color: #ffff;
+    box-shadow: 0 5px 5px #aaa;
+}
+
+.small-text {
+    font-size: 1rim;
+}
+
+.fs1-txt {
+    font-size: 300;
+}
+
+
+.social-link{
+    color: var(--yellow)
+}
+
+#client1 {
+    font-family: var(--client1);
+}
+
+#client2 {
+    font-family: var(--client2);
+}
+
+#client3 {
+    font-family: var(--client3);
+}
+
+#client4 {
+    font-family: var(--client4);
+}
+
+
+#client5 {
+    font-family: var(--client1);
+}
+
+
+
+#carouselSection {
+    position: relative;
+    width: 100%;
+    height: 45vh;
+    background-color: 0.60;
+    background-image: url('../images/abhishek-hajare-_3dTLrMwiW8-unsplash.jpg');
+}
+
+#figureSection {
+    padding: 32px 0;
+    background-color: var(--bg1);
+}
+
+#footerSection1 {
+    padding: 32px 0;
+    background-color: var(--bg3);
+}
+
+#footerSection2 {
+    padding: 32px 0;
+    color: var(--yellow);
+    background-color: var(--gray1);
+}
+
+#footerSection3 {
+    padding: 32px 0;
+    background-color: var(--gray2);
+}
+
+#footerSection4 {
+    padding: 32px 0;
+    background-color: var(--gray3);
+}
+
+#headerSection1 {
+    background-color: var(--red);
+}
+
+#headerSection2 {
+    padding: 20px 0;
+    background-color: var(--red);
+    background-image: var(--grad);
+}
+
+#headerSection3 {
+    padding: 15px 0;
+    background-color: var(--yellow);
+}
+
+
