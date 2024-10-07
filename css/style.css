@@ -30,6 +30,16 @@ body {
     scroll-behavior: smooth;
 }
 
+.about-div {
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px #aaa;
+}
+
+.banner-img {
+    height: 45vh;
+}
+
 .blurb {
     color: var(--textColor);
     background-color: var(--bg1);
